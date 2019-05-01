@@ -1,3 +1,5 @@
+#Must be ran in powershell as admin. Must allow port through the firewall. Must forward the port.
+
 set-alias run invoke-expression
 $global:fieldsep = "|"
 
@@ -109,6 +111,13 @@ function Set-UserData {
     $command.Parameters.AddWithValue("@UserId", $UserId) > $null
     $command.ExecuteScalar()
     $command.Dispose()
+	
+	$command = [System.Data.SqlClient.SqlCommand]::new()
+    $command.Connection = $Connection
+    $command.CommandText = "INSERT INTO user_server_group (uid, server_group_id) VALUES (@UserId, 1);"
+    $command.Parameters.AddWithValue("@UserId", $UserId) > $null
+    $command.ExecuteScalar()
+    $command.Dispose()
 }
 
 function Set-User {
@@ -147,6 +156,7 @@ function server ($a,$b,$c){
            $vdsServer = New-Object Net.HttpListener
            $server = $b + ':' + $c + '/'
            $vdsServer.Prefixes.Add($server)
+		 #  $vdsServer.Prefixes.Add('http://74.128.211.245:7777/')
            $vdsServer.Start()
            return $vdsServer
        }
@@ -269,10 +279,10 @@ function parse ($a) {
 #>
 }
 
-$port = 8080
+$port = 7777
 
 #start server
-$vdsServer = server start "http://localhost" $port
+$vdsServer = server start "http://+" $port
 
 #recall server name
 $server = 'http://localhost:' + $port + '/'
@@ -307,7 +317,7 @@ run "mshta $server"
                 //  frameUs will send the contents of txt1 to the server and will contain the result from the server when the request is complete.
                 frameUs.location.href = '$server' + username.value + "|" + password.value;
                     // It takes time for the server to fill the request result, so we can't update immediately.
-                    timerx = setTimeout(myTimer, 250)
+                    timerx = setTimeout(myTimer, 10000)
                 }
                 function myTimer() {
                     // Update the server return result from frameUs back into txt1
@@ -348,6 +358,3 @@ run "mshta $server"
     }
     #stop the server
 server stop $vdsServer
-
-
-
