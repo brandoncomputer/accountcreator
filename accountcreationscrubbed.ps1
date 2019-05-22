@@ -1,13 +1,11 @@
-#Must be ran in powershell as admin. Must allow port through the firewall. Must forward the port.
-
 set-alias run invoke-expression
 $global:fieldsep = "|"
 
 $ErrorActionPreference = "SilentlyContinue"
 
-$sqlServer = "DESKTOPNAME\SQLEXPRESS"
+$sqlServer = ""
 $sqlUser = "sa"
-$sqlPassword = "password1!"
+$sqlPassword = ""
 $sqlDb = "cohauth"
 
 $global:userId = 1
@@ -62,15 +60,21 @@ function Set-UserAccount {
         [System.Data.SqlClient.SqlConnection] $Connection,
         [string] $UserName,
         [int] $UserId,
-        [int] $ForumId
+        [int] $ForumId,
+		[string] $first_name,
+		[string] $last_name,
+		[string] $email
     )
 
     $command = [System.Data.SqlClient.SqlCommand]::new()
     $command.Connection = $Connection
-    $command.CommandText = "INSERT INTO user_account (account, uid, forum_id, pay_stat) VALUES (@UserName, @UserId, @ForumId, 1014);"
+    $command.CommandText = "INSERT INTO user_account (account, uid, forum_id, pay_stat, first_name, last_name, email) VALUES (@UserName, @UserId, @ForumId, 1014, @first_name, @last_name, @email);"
     $command.Parameters.AddWithValue("@UserName", $UserName) > $null
     $command.Parameters.AddWithValue("@UserId", $UserId) > $null
     $command.Parameters.AddWithValue("@ForumId", $ForumId) > $null
+	$command.Parameters.AddWithValue("@first_name", $first_name) > $null
+	$command.Parameters.AddWithValue("@last_name", $last_name) > $null
+	$command.Parameters.AddWithValue("@email", $email) > $null
     $command.ExecuteScalar()
     $command.Dispose()
 }
@@ -123,13 +127,16 @@ function Set-UserData {
 function Set-User {
     param(
         [string] $UserName,
-        [string] $Password
+        [string] $Password,
+		[string] $first_name,
+		[string] $last_name,
+		[string] $email
     )
 
     $hashedPassword = Get-HashedPassword -UserName $UserName -Password $Password
 
     $connection = Get-Connection
-    Set-UserAccount -Connection $connection -UserName $UserName -UserId $UserId -ForumId $UserId
+    Set-UserAccount -Connection $connection -UserName $UserName -UserId $UserId -ForumId $UserId -first_name $first_name -last_name $last_name -email $email
     Set-UserAuth -Connection $connection -UserName $UserName -HashedPassword $hashedPassword
     Set-UserData -Connection $connection -UserId $UserId
     $connection.Dispose()
@@ -156,7 +163,6 @@ function server ($a,$b,$c){
            $vdsServer = New-Object Net.HttpListener
            $server = $b + ':' + $c + '/'
            $vdsServer.Prefixes.Add($server)
-		 #  $vdsServer.Prefixes.Add('http://74.128.211.245:7777/')
            $vdsServer.Start()
            return $vdsServer
        }
@@ -302,20 +308,37 @@ run "mshta $server"
         
             #prepare return for client
             $return = @"
-            <title>Account Creation - $server</title>
+            <title>Account Creation</title>
             <body>
-            <input id=username>
-            <input id=password>
-            <div id=txt1></div>
+			<font size=5>Account Registration</font><br>
+			<table>
+			<td>First Name<br><input id=first></td>
+			<td>Last Name<br><input id=last></td></td>
+			<tr>
+			<td colspan=2>
+			Email<br><input id=email size=40></td>
+			</td>
+			<tr>
+			<td>
+			Username<br>
+            <input id=username maxlength=14>
+			</td>
+			<td>
+			Password<br>
+            <input type=password id=password>
+			</td>
+			</table>
+			Allow 10 seconds after submitting, you will get a confirmation when completed.
             <br>
             <!--The button sends the run request to frameUs-->
             <button onclick="myFunction()" style="vertical-align: top">Create Account</button>
+			            <div id=txt1></div>
 
             <script>
                 function myFunction() {
                 //  frameUs location becomes the client request and is read by the server wait event. 
                 //  frameUs will send the contents of txt1 to the server and will contain the result from the server when the request is complete.
-                frameUs.location.href = '$server' + username.value + "|" + password.value;
+                frameUs.location.href = '$server' + username.value + "|" + password.value + "|" + first.value + "|" + last.value + "|" + email.value;
                     // It takes time for the server to fill the request result, so we can't update immediately.
                     timerx = setTimeout(myTimer, 10000)
                 }
@@ -343,16 +366,19 @@ run "mshta $server"
             
             $userName 		= $parse[0]
 			$userPassword 	= $parse[1]
+			$first_name1 	= $parse[2]
+			$last_name1 	= $parse[3]
+			$email1 		= $parse[4]
             
             #prepare the return
-            $return = "<body>I think that got it.</body>"
+            $return = "<body>Account created! Start City of Heroes and log in with your account details.</body>"
         }
         #return the result back to the client.
         server return $event $return
         
 		if ($parse -ne $null)
 		{
-		Set-User -UserName $userName -Password $userPassword
+		Set-User -UserName $userName -Password $userPassword -first_name $first_name1 -last_name $last_name1 -email $email1
 		}	
 		
     }
