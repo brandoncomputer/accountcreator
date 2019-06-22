@@ -2,7 +2,7 @@
 <manifest>
 	<label>City of Heroes</label>
 	<profiles>
-		<launch exec="coh.exe" order="0" website="http://74.129.202.114:7777" params="-auth 74.129.202.114 -patchdir coh -noversioncheck">City of Heroes</launch>
+		<launch exec="coh.exe" order="0" website="http://74.129.202.114:7777" params="-auth 74.129.202.114 -patchdir coh -patchversion 2019.04.19">City of Heroes</launch>
 	</profiles>	
 	<filelist>
 		<!-- coh -->
