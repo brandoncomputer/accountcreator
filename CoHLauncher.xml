@@ -6,6 +6,82 @@
 	</profiles>	
 	<filelist>
 		<!-- coh -->
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_audio.clientsave.txt" size="1706" md5="41A58FCB0A91C10DB5F11AFA3AE16F4F">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_audio.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_WarpVolumes.clientsave.txt" size="3201" md5="3E41B0F25C1628129AB197BD72C7B2A0">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_WarpVolumes.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Rikti_Invasion_Event.clientsave.txt" size="23232" md5="1F3AEBD26D7E436AE243B32FFE1104CE">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Rikti_Invasion_Event.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_NPC_Beacons.clientsave.txt" size="24199" md5="68317707FD9243887D04F2C05AA34447">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_NPC_Beacons.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Holiday_Event_05.clientsave.txt" size="76798" md5="44E76E7D3D2390CCC6E6064891E452B9">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Holiday_Event_05.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_HalloweenEvent_09.clientsave.txt" size="13377" md5="FF9F6266C06246C25AD4A51073430E88">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_HalloweenEvent_09.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Halloween_Event_06.clientsave.txt" size="24798" md5="2C16662C5B6C825F800B983FD867C23B">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Halloween_Event_06.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Day_Job_Volumes.clientsave.txt" size="2115" md5="7C9F4962488FD6946E2E77369CF0B172">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Day_Job_Volumes.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_BetaEvent.clientsave.txt" size="21509" md5="08DA19DC09C0AE980B35EF98A7988E98">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_BetaEvent.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Zowie.clientsave.txt" size="1982" md5="FBD6AB398597ED62B0266446A5A2D5F1">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Zowie.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_RogueIslesTeleport.clientsave.txt" size="788" md5="49ED7BDA315E28897606E8BD0CFA8053">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_RogueIslesTeleport.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Phasing_Volumes.clientsave.txt" size="1976" md5="3AB9DEC58467A3231ED5D36360250973">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Phasing_Volumes.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_MissionVolumes.clientsave.txt" size="1727" md5="667F4CF8E3F1108BA9CAFB21EBB3808D">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_MissionVolumes.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Persistent_NPCs.clientsave.txt" size="11215" md5="DD3CC745565085CAC22700FE75AAE259">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Persistent_NPCs.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Mission_Trays.clientsave.txt" size="126" md5="44E062DA469DB246D593B30BA57EBD13">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Mission_Trays.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Plaques.clientsave.txt" size="487" md5="99BD573B821FB2272CF52D8DBA88BB73">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Plaques.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Plaque_Tourism.clientsave.txt" size="1716" md5="E0808C0B2862203F71D36B34C0FD6456">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Plaque_Tourism.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01.clientsave.txt" size="2043" md5="350B50BAC5DA5E7D201B902108462611">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Geometry.clientsave.txt" size="5293714" md5="E144C14489ECF3692D4793EF56054575">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Geometry.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Spawndefs.clientsave.txt" size="771927" md5="DCA841E74BD629F6BF3BFF4437CBD9BA">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Spawndefs.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Scripts.clientsave.txt" size="16474" md5="84527D66A02E86D16142261FDC9D7ECA">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Scripts.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_neighborhoods.clientsave.txt" size="19854" md5="45BD303F79C5980886AEB84177FD7E98">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_neighborhoods.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_MissionDoors.clientsave.txt" size="22326" md5="EB5C39ED5CE9B6DE0C0D0110A32B4CE8">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_MissionDoors.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Blackmap.clientsave.txt" size="202" md5="AAFAB358555B64ADD5BD16BE033C765B">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Blackmap.clientsave.txt</url>
+		</file>
+		<file name="data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Beacons.clientsave.txt" size="103796" md5="5F8F523CAFEA2DA4B9CB984AFE1FE4B5">
+			<url>https://dialogshell.com/coh/data/maps/City_Zones/V_City_01_01/V_City_01_01_layer_Beacons.clientsave.txt</url>
+		</file>
+
 		<file name="data/maps/City_Zones/City_01_01/City_01_01_layer_Halloween_Event_06.clientsave.txt" size="24241" md5="1CA34E6B7D0CA72A2578964B33393E65">
 			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Halloween_Event_06.clientsave.txt</url>
 		</file>
