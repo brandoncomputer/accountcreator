@@ -107,61 +107,7 @@
 		</file>
 		<file name="data/maps/City_Zones/City_01_01/City_01_01_layer_GC_Shutdown_Atmo.clientsave.txt" size="34403" md5="EEFE5A7C15535F8682309795131E0D25">
 			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_GC_Shutdown_Atmo.clientsave.txt</url>
-		</file>
-		<file name="data/maps/mymap2.txt" size="4657" md5="4063285F369EC185AE51F777E9F11780">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/mymap2.txt</url>
-		</file>
-		<file name="data/maps/City_01_01.clientsave.txt" size="2609" md5="B34D312C29F7AC0513C24B1A6320C34F">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_RiktiBetaEvent.clientsave.txt" size="249" md5="B78C76E94FE434F6E84886D68A631FAC">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_RiktiBetaEvent.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_ShadowShardInvasion.clientsave.txt" size="1210" md5="4095779925DD8711F4A71AADA4EA1B7C">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_ShadowShardInvasion.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_spawndefs.clientsave.txt" size="336556" md5="E6D3E4662054AD4AEA6853B36AF0D407">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_spawndefs.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Truck_Door.clientsave.txt" size="2880" md5="1FB9CC4E6983CA75BB46204711DBB217">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Truck_Door.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_warpvolumes.clientsave.txt" size="941" md5="3B186B5B677890F27461E85907CA0907">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_warpvolumes.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Winter_Event.clientsave.txt" size="1148" md5="9F8D0D19EA2F4B6EF6DB52BDF51B7263">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Winter_Event.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Zowies.clientsave.txt" size="1593" md5="A8FBCACEAC0DAB5BAB6BBCAEECF49485">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Zowies.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Mission_Phase.clientsave.txt" size="5207" md5="716E6DB5A802071370319A9E434B6196">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Mission_Phase.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Mission_Trays.clientsave.txt" size="287985" md5="2657853BA1D86FD4865D446F6BB4FEC6">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Mission_Trays.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_neighborhoods.clientsave.txt" size="28684" md5="5D0AC587744CD8FD02E09935E63850FD">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_neighborhoods.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_ParagonCityTeleport.clientsave.txt" size="722" md5="C840D73853AAF3641BB4C3B6F2041B46">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_ParagonCityTeleport.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_patrol_box.clientsave.txt" size="5239" md5="77FBB68E6DA964CC9AAA1EAA015BFE8A">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_patrol_box.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_PersistentNPC.clientsave.txt" size="30140" md5="D22FAC154985E3885D2507DF9FCCF393">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_PersistentNPC.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Plaques.clientsave.txt" size="882" md5="F643C2B888FB1BAE44E9565B93EF9409">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Plaques.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_Rikti_Invasion_Event.clientsave.txt" size="21111" md5="8BF2AB16CA29527A18B9BF665A873A73">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_Rikti_Invasion_Event.clientsave.txt</url>
-		</file>
-		<file name="data/maps/City_01_01_layer_GC_Shutdown_Atmo.clientsave.txt" size="34403" md5="EEFE5A7C15535F8682309795131E0D25">
-			<url>https://dialogshell.com/coh/data/maps/City_Zones/City_01_01/City_01_01_layer_GC_Shutdown_Atmo.clientsave.txt</url>
-		</file>		
+		</file>	
 		<file name="coh/texture_library.pigg" size="9953909" md5="36de6d1d836368abc93da42ff4db4df6">
 			<url>https://dialogshell.com/coh/texture_library.pigg</url>
 		</file>
