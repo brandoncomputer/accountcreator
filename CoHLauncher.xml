@@ -138,6 +138,11 @@
 			<url>http://74.129.202.114:7778/City_Zones/Battle_Royale/City_01_01_layer_Zowies.clientsave.txt</url>
 		</file>
 
+		<file name="data/texts/English/Menus/quickchat.mnu" size="32925" md5="F4C5E8C7AF740726E6EC694BB5765017">
+			<url>http://74.129.202.114:7778/texts/English/Menus/quickchat.mnu</url>
+		</file>
+
+
 		<!-- coh -->
 		<file name="cg.dll" size="5667432" md5="546eb6220246e27cb1e6a149c6ea4fdc">
 			<url>http://psb34088.seedbox.io/files/coh/cg.dll</url>
